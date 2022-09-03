@@ -1,0 +1,75 @@
+[
+    {
+        "title": "whe we use <br> element",
+        "answer_1": "to make text bold",
+        "answer_2": "to make text Italic",
+        "answer_3": "to add Break line",
+        "answer_4": "to add horizontal line",
+        "right_answer": "to add break line"
+    },
+    {
+        "title": "Is <img> Element Has Attribute href",
+        "answer_1":"Yes",
+        "answer_2":"No Its for Anchor Tag",
+        "answer_3":"All Elements Has This Attribute",
+        "answer_4":"Answer 1 And 3 Is Right",
+        "right_answer":"No Its For Anchor Tag"
+    },
+    {
+        "title": "How Can We Make Element Text bold",
+        "answer_1":"Putting It Inside <b> Tag",
+        "answer_2":"Putting It inside <strong> Tag",
+        "answer_3":"Customizing it with Font-Weight Property in css",
+        "answer_4":"All Answers Is right",
+        "right_answer":"All Answers Is right"
+    },
+    {
+        "title": "What is the Right Hierarchy For Creating Part of Page",
+        "answer_1":"<h2> then <p> Then <h1> Then <p> Then <h3> Then <p> Then> <img>",
+        "answer_2":"<h2> then <p> Then <h1> Then <p> Then <h3> Then <p> Then> <img>",
+        "answer_3":"<h2> then <p> Then <h1> Then <p> Then <h3> Then <p> Then> <img>",
+        "answer_4":"All Answers Is wrong",
+        "right_answer":"All Answers Is wrong"
+    },
+    {
+        "title": "How Can We Include External Page Inside Our HTML Page",
+        "answer_1":"By Using Include in Html",
+        "answer_2":"By Using Load In Html",
+        "answer_3":"By Using iframe Tag",
+        "answer_4":"All Answers Is Wrong",
+        "right_answer":"By Using iframe Tag"
+    },
+    {
+        "title": "What Is The Tag That Not Exists in Html",
+        "answer_1":"<object>",
+        "answer_2":"<basefont>",
+        "answer_3":"<abbr>",
+        "answer_4":"All Tags Is Exists in Html",
+        "right_answer":"All Tags Is Exists in Html"
+    },
+    {
+        "title": "How We Specify Document Type of HTML5 Page",
+        "answer_1":"<DocType html>",
+        "answer_2":"<DocType html5>",
+        "answer_3":"<!DocType html5>",
+        "answer_4":"<!DOCTYPE html>",
+        "right_answer":"<!DOCTYPE html>"
+    },
+    {
+        "title": "What Is The Element Thats Not Exists In hTML5 Semantics",
+        "answer_1":"<article>",
+        "answer_2":"<section>",
+        "answer_3":"<blockquote>",
+        "answer_4":"<aside>",
+        "right_answer":"<blockquote>"
+    },
+    {
+        "title": "In HtML Can We Use this Way To Add Attributes",
+        "answer_1":"<div class='class-name'>",
+        "answer_2":"<div class='class-name'>",
+        "answer_3":"<div class='class-name'>",
+        "answer_4":"All Answers Is right",
+        "right_answer":"All Answers Is right"
+    }
+
+]

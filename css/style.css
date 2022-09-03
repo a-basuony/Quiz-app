@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: tahoma, Arial;
+}
+.quiz-app{
+    margin: 20px auto;
+    width: 800px;
+    background-color: #f8f8f8;
+    padding: 15px;
+}
+.quiz-app .quiz-info{
+    display: flex;
+    background-color: #fff;
+    padding: 20px;
+}
+.quiz-app .quiz-info .category{
+    flex: 1;
+}
+.quiz-app .quiz-info .count{
+    flex: 1;
+    text-align: center;
+}
+.quiz-area{
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 15px;
+}
+.quiz-area h2{
+    margin: 0;
+}
+.answers-area{
+    background-color: #fff;
+    padding: 20px;
+}
+
+.answer{
+    background-color: #f9f9f9;
+    padding: 15px;
+}
+.answer:not(:last-child){
+    border-bottom: 1px solid #dfdfdf;
+}
+.answer input[type="radio"]:checked +label{
+    color: #0075ff;
+}
+.answer label{
+    cursor: pointer;
+    font-weight: bold;
+    color: #777;
+    font-size: 14px;
+    margin-left: 4px;
+    position: relative;
+    top: -1px;
+}
+.submit-button{
+    background-color: #0075ff;
+    display: block;
+    margin:  10px auto;
+    width: 95%;
+    padding: 10px 15px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.submit-button:focus{
+    outline: none;
+}
+.bullets{
+    border-top: 1px solid #dfdfdf;
+    background-color: #fff;
+    display: flex;
+    padding: 10px;
+}
+.bullets .spans {
+    flex: 1;
+    display: flex;
+}
+.bullets .spans span{
+    width: 20px ;
+    height: 20px;
+    background-color: #ddd;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+.bullets .spans .on{
+    background-color: #0075ff;
+}
+.results{
+    margin-top: 10px;
+}
+.results span {
+    font-weight: bold;
+
+}
+.results span.bad{
+    color: #dc0a0a;
+}
+.results span.good{
+    color: #009688;
+}
+.results span.perfect{
+    color: #0075ff;
+}
+
+@media screen and (max-width: 600px) {
+    .quiz-app{
+        width: 100%;
+    }
+    .quiz-area h2{
+        font-weight: normal;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .quiz-app{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .quiz-app{
+        width: 100%;
+    }
+    .quiz-info .category{
+        flex-shrink: 3;
+        font-size: 15px;
+    }
+    .quiz-info .count{
+        flex-shrink: 1;
+        font-size: 15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
